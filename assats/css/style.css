@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+header {
+    width: 100%;
+    padding: 20px 0;
+}
+header {
+    border-bottom: 1px solid rgb(189 196 208 / 60%);
+}
+.main_nav, .nave_manu {
+    list-style: none;
+    justify-content:space-between;
+    align-items: center;
+}
+.main_logo {
+    width: 127px;
+    height: 54px;
+    align-items: flex-start;
+}
+.nave_manu li a, .call_button {
+    text-decoration: none;
+}
+
+li a {
+    color: #070224;
+    letter-spacing: .25px;
+    margin: 0 4px;
+    padding: 5px 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.call_button {
+    background: #18b845;
+    padding: 21px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+.shadow:hover {
+    box-shadow: 5px 5px rgb(24 184 69 / 40%);
+}
+.hero_section {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+.title {
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #333;
+}
+.p-hero {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #5e6a7f;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+.button {
+    padding: 16px 0px;
+}
+.hero_call_button {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 0;
+}
+.hero_call_button:hover {
+    background: #2d7955;
+}
+.hero_image {
+    position: relative;
+    width: auto;
+    height: 620px;
+}
+.girls_image {
+    width: 517px;
+    height: 620px;
+}
+.image_front {
+    background: rgb(255 255 255 / 60%);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    z-index: 5;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+    border-radius: 2px;
+}
+.fanni {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    padding: 16px 24px 8px 16px;
+}
+.lead_product {
+    font-size: 18px;
+    color: #000;
+    padding: 8px 24px 16px;
+}
+
+/* client logo */
+
+.client_logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 120px;
+}
+.client_logo  img {
+    width: 13%;
+    max-width: 13%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* Innovation */
+.container_aria {
+    background: rgb(19, 18, 23);
+    color: white;
+}
+.text_height {
+    padding-top: 40px;
+}
+.innovation {
+    width: 100%;
+    position: relative;
+    font-size: 85px;
+    animation: innovation_title 5s infinite;
+}
+@keyframes innovation_title {  
+  0%   {right: 0px;}
+  50%  {right: 200px;}
+  100% {right: 0px;}
+}
+.innovation_d {
+    display: flex;
+    gap: 16px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.innovation_details {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 542px;
+}
+
+.searvice_card {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    padding-bottom: 100px;
+}
+.searvice {
+    transition: scale linear .2s;
+}
+.searvice:hover {
+    scale: 1.05;
+}
+.searvice_image {
+    width: 345px;
+    border-radius: 8px 8px 0px 0px;
+}
+.card_button {
+    background: rgb(17, 3, 73);
+    border-radius: 0px 0px 8px 8px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.card_button h5 {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.buttone_type {
+    padding: 4px 6px;
+    border: 1px solid #5e6a7f;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
