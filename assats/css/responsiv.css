@@ -1,13 +1,42 @@
-@media screen and (max-width: 420px){
-    
+@media screen and (max-width: 768px) {
     .container{
+        width: 768px;
         width: 96%;
-        margin: 0 auto;
-        padding-bottom: 100px;
+        margin: auto;
         text-align: center;
+        padding: 0px 10px;
+        align-items: center;
     }
 
-    .d-flex {
+    .d-flex, .searvice_card {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+    .girls_image {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .innovation {
+        font-size: 36px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px){
+    
+    .container{
+        width: 600px;
+        width: 96%;
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .d-flex, .searvice_card {
         flex-direction: column;
     }
     
@@ -23,4 +52,25 @@
     .innovation {
         font-size: 36px;
     }
+
+    .searvice_card {
+        padding-bottom: 100px;
+    }
+
+    .searvice_image {
+        width: 96%;
+    }
+    .card_button {
+        text-align: left;
+        width: 96%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .buttone_type {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
 }
