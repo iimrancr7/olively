@@ -11,9 +11,18 @@
     .d-flex, .searvice_card {
         flex-direction: column;
     }
+    .nave_manu li {
+        padding-bottom: 10px;
+    }
+
+    .main_title {
+        padding-bottom: 15px;
+    }
 
     .title {
-        font-size: 36px;
+        font-size: 32px;
+        line-height: 42px;
+        padding-top: 15px;
     }
     .girls_image {
         width: 100%;
@@ -22,7 +31,10 @@
     .innovation {
         font-size: 36px;
     }
-    
+    .innovation_d {
+        flex-direction: column;
+        align-items: center;
+    }
     
 }
 
